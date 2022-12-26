@@ -1,7 +1,7 @@
 const name = 'biba';
 
-function foo(name) {
-  return name;
+function foo(names) {
+  return names;
 }
 
-console.log(name);
+console.log(foo(name));
